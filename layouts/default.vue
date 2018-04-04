@@ -37,7 +37,7 @@
                     flat
                     @click="dark =!dark"
             >
-                <v-icon color="green" >lens</v-icon>
+                <v-icon color="red" >lens</v-icon>
             </v-btn>
 
             <v-toolbar-title v-text="title"></v-toolbar-title>
@@ -145,9 +145,8 @@
         items: [
           { icon: 'home', title: 'Home', to: '/' },
           { icon: 'insert_photo', title: 'Pictures', to: '/inspire' },
-          { icon: 'people', title: 'People', to: '' },
-          { icon: 'settings', title: 'Settings', to: '' },
-          { icon: 'info', title: 'About', to: '' }
+          { icon: 'people', title: 'People', to: '/people' },
+          { icon: 'settings', title: 'Settings', to: '/settings' }
         ],
         miniVariant: false,
         right: true,

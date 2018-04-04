@@ -4,13 +4,13 @@
         <v-layout row wrap>
             <v-card>
                 <div>
-                    <v-flex md6>
+                    <v-flex>
                         <img :src='src' class='boldoutline'>
                     </v-flex>
                 </div>
             </v-card>
 
-            <v-flex m6>
+            <v-flex>
                 <v-card class='CardBox' raised>
                     <v-card-media src='/asad.jpg' height='400px'>
                     </v-card-media>
